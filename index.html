@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Speech API demo</title>
+  <link rel="stylesheet" href="speech.css" />
+</head>
+<body>
+  <h1>Web Speech API Demo</h1>
+
+  <h2>Text to Speech</h2>
+  <div class="text-to-speech">
+    <form action="" class="js-tts">
+      <label for="texttospeech">Text input</label>
+      <textarea name="text" id="texttospeech" cols="60" rows="5"></textarea>
+      <button>Speak it!</button>
+    </form>
+  </div>
+
+  <h2>Speech to text</h2>
+  <div class="speech-to-text">
+    <p>Click the button below to start listening and transcribe speech</p>
+    <button class="js-toggle-speech">Start listening</button>
+    <p>Results:</p>
+    <div class="js-speech-results"></div>
+  </div>
+  <script src="speech.js"></script>
+</body>
+</html>

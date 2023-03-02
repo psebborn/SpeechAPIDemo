@@ -1,0 +1,35 @@
+body { 
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+svg {
+  display: block;
+  width: 25px;
+}
+
+.active svg {
+  fill: #2c2;  
+}
+
+input[type="text"] {
+  width: 400px;
+  font-size: 1.8rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+select {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.text-to-speech {
+  margin-bottom: 50px;
+}
